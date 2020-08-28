@@ -14,16 +14,6 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <style>
-      
-      .border-top {
-          border-width:6px !important;
-      }
-
-      .navbar-brand, .card-header {
-          font-family: Georgia, "Times New Roman", Times, serif;
-      }
-    </style>
   </head>
 
   <body class="bg-secondary">
@@ -41,7 +31,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div
+      <nav
         class="collapse navbar-collapse w-100 order-3 dual-collapse2"
         id="navbarSupportedContent"
       >
@@ -60,19 +50,25 @@
             >
           </li>
         </ul>
-      </div>
+      </nav>
     </nav>
     <!--Card-->
-    <div class="row m-3">
-      <div class="col-sm-9">
-        <div class="card">
-          <div class="card-header text-success font-weight-bold">About Me</div>
-          <div class="img-thumbnail card-body bg-light">
+    <article class="row m-3">
+      <article class="col-sm-9">
+        <article class="card">
+          <header class="card-header text-success font-weight-bold">About Me</header>
+          <section class="row mt-3 ml-1">
+            <section class="col-sm-3">
+          <figure class="img-thumbnail card-body bg-light"></figure>
             <img class="float-left mr-2 mb-1">
+          </section>
+          <section class="col-sm-6">
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          </div>
-        </div>
-      </div>
+          </section>
+          </section>
+          </article>
+        </article>
+      </article>
     <!--Footer-->
     <footer
       class="text-center fixed-bottom bg-secondary text-white border-top border-info"
