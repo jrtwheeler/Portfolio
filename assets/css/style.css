@@ -1,9 +1,11 @@
+.border-top {
+    border-width: 6px !important;
+}
 
-      
-      .border-top {
-          border-width:6px !important;
-      }
+.navbar-brand, .card-header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-      .navbar-brand, .card-header {
-          font-family: Georgia, "Times New Roman", Times, serif;
-      }
+body {
+    background: url("https://i.imgur.com/MJAkxbh.png");
+}
