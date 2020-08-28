@@ -7,13 +7,13 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Index</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
@@ -56,40 +56,36 @@
       </nav>
     </nav>
     <!--Card-->
-    <article class="row m-3">
-      <article class="col-9">
-        <article class="card">
-          <header class="card-header text-success font-weight-bold">
-            About Me
-          </header>
-          <section class="row mt-3 ml-1 mr-1 mb-3">    
-            <section class="col-9">
-              <img class="card-img float-left mr-2 mb-1" src=".../100px160/" alt="Card image cap">
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                tincidunt sem quis tortor pharetra, pulvinar tempus diam
-                malesuada. Suspendisse potenti. Sed a mi id turpis rhoncus
-                tempor et ac erat. Aenean non euismod ex.
-              </p>
-            </section>
-          </section>
-            <section class="row mt-3 ml-1 mr-1 mb-3">
-              <section class="col-9">
-                <p class="card-text">
-                  Integer non ultrices ligula. Morbi est nibh, scelerisque et
-                  massa a, consequat porttitor magna. Cras sollicitudin, augue
-                  quis varius cursus, lacus eros vehicula nulla, at mollis leo
-                  ipsum et turpis. In a varius orci, ut hendrerit lorem. Aliquam
-                  id vestibulum purus, eu cursus felis. Phasellus in nunc
-                  aliquam, faucibus turpis eu, tempor enim. Donec fermentum leo
-                  eget gravida ultrices.
-                </p>
-              </section>
-            </section>
+    <main class="container">
+      <section class="row">
+        <article class="col-9 card mt-3 mb-5">
+          <h1 class="card-header text-success font-weight-bold">About Me</h1>
+
+          <section class="my-3 mx-1">
+            <img
+              id="portrait"
+              class="float-left mr-2 mb-2"
+              src="./assets/img/ms_portrait.jpg"
+              alt="Card image cap"
+            />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              tincidunt sem quis tortor pharetra, pulvinar tempus diam
+              malesuada. Suspendisse potenti. Sed a mi id turpis rhoncus tempor
+              et ac erat. Aenean non euismod ex.
+            </p>
+            <p>
+              Integer non ultrices ligula. Morbi est nibh, scelerisque et massa
+              a, consequat porttitor magna. Cras sollicitudin, augue quis varius
+              cursus, lacus eros vehicula nulla, at mollis leo ipsum et turpis.
+              In a varius orci, ut hendrerit lorem. Aliquam id vestibulum purus,
+              eu cursus felis. Phasellus in nunc aliquam, faucibus turpis eu,
+              tempor enim. Donec fermentum leo eget gravida ultrices.
+            </p>
           </section>
         </article>
-      </article>
-    </article>
+      </section>
+    </main>
     <!--Footer-->
     <footer
       class="text-center fixed-bottom bg-secondary text-white border-top border-info"

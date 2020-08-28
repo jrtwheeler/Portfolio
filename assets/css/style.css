@@ -1,11 +1,29 @@
+* {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .border-top {
     border-width: 8px !important;
 }
 
-.navbar-brand, .card-header {
-    font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 body {
     background: url("https://i.imgur.com/MJAkxbh.png");
+}
+
+#portrait {
+    border: 2px solid green;
+    width: auto;
+    height: 200px;
+}
+
+@media screen and (max-width: 600px){
+    #portrait {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.portfolio-img {
+    height: 150px;
+    max-width: 100%;
 }
