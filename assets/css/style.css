@@ -1,0 +1,9 @@
+
+      
+      .border-top {
+          border-width:6px !important;
+      }
+
+      .navbar-brand, .card-header {
+          font-family: Georgia, "Times New Roman", Times, serif;
+      }
