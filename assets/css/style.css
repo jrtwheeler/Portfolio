@@ -1,17 +1,18 @@
+/*Style that changes all the fonts in the page to seriff. The bootstrap default is sans-serriff */
 * {
     font-family: Georgia, "Times New Roman", Times, serif;
 }
-
+/* Style for the footer border width */
 .border-top {
     border-width: 8px !important;
 }
-
+/* Style for the body that adds a background image */
 body {
     background: url("https://i.imgur.com/MJAkxbh.png");
 }
-
+/* Style for the image in the index.html file */
 #portrait {
-    border: 2px solid green;
+    border: 2px solid teal;
     width: auto;
     height: 200px;
 }
