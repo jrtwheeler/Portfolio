@@ -16,14 +16,14 @@ body {
     width: auto;
     height: 200px;
 }
-
+/* Changes portrait location when the screen has a max-width of 600px or below */
 @media screen and (max-width: 600px){
     #portrait {
         width: 100%;
         height: auto;
     }
 }
-
+/* Sets the height and max width for the portfolio.html placeholder images */
 .portfolio-img {
     height: 350px;
     max-width: 100%;
