@@ -1,140 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Index</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a
-        class="navbar-brand ml-3 bg-info text-white font-weight-bold"
-        href="./index.html"
-        >Jim Wheeler</a
-      ><button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <nav
-        class="collapse navbar-collapse w-100 order-3 dual-collapse2"
-        id="navbarSupportedContent"
-      >
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About |</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./portfolio.html"
-              >Portfolio |<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html"
-              >Contact<span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Index</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand ml-3 text-white font-weight-bold" href="./index.html">Jim Wheeler</a><button
+      class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">About |</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./portfolio.html">Portfolio |<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
     </nav>
-    <!-- Portfolio container -->
-    <main class="container mt-2 mb-4">
-      <!-- Portfolio card row -->
-      <section class="row">
-        <!-- Portfolio card column takes up all 12 columns with y axis 3 margin and bottom margin 5 -->
-        <article class="col-12 card my-3 mb-5">
-          <!-- Portfolio card header text-info(teal) color and bold font -->
-          <h1 class="card-header text-info font-weight-bold">Portfolio</h1>
-          <!-- Row for first row of images -->
-          <article class="row">
-            <!-- Column is 12 column wide for mall screens, 6 columns wide for md+, image is centered, 2 margin on y axis -->
-            <div class="col-sm-12 col-md-6 text-center my-2">
-              <img
-                src="https://via.placeholder.com/350"
-                alt="bar"
-                class="portfolio-img"
-              />
+  </nav>
+  <!-- Portfolio container -->
+  <div class="parent-container d-flex mt-3">
+
+    <div class="container col-9">
+      <div class="container">
+        <div class="row">
+
+          <div class="card col-sm" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title" id="box">Pour Decsion
+              </h5>
+              <hr class="my-4">
+              <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank" class="btn btn-primary">Repo</a>
+              <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank" class="btn btn-primary">Site</a>
             </div>
-            <!-- Column is 12 column wide for mall screens, 6 columns wide for md+, image is centered, 2 margin on y axis -->
-            <div class="col-sm-12 col-md-6 text-center my-2">
-              <img
-                src="https://via.placeholder.com/350"
-                alt="bar"
-                class="portfolio-img"
-              />
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="card col-sm" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title" id="box">Weather Dashboard
+              </h5>
+              <hr class="my-4">
+              <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank" class="btn btn-primary">Repo</a>
+              <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank" class="btn btn-primary">Site</a>
             </div>
-          </article>
-          <article class="row">
-            <!-- Column is 12 column wide for mall screens, 6 columns wide for md+, image is centered, 2 margin on y axis -->
-            <div class="col-sm-12 col-md-6 text-center my-2">
-              <img
-                src="https://via.placeholder.com/350"
-                alt="bar"
-                class="portfolio-img"
-              />
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="card col-sm" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title" id="box">Password Generator
+              </h5>
+              <hr class="my-4">
+              <a href="https://github.com/jrtwheeler/Password-Generator" target="_blank"
+                class="btn btn-primary">Repo</a>
+              <a href="https://jrtwheeler.github.io/Password-Generator/" target="_blank"
+                class="btn btn-primary">Site</a>
             </div>
-            <!-- Column is 12 column wide for mall screens, 6 columns wide for md+, image is centered, 2 margin on y axis -->
-            <div class="col-sm-12 col-md-6 text-center my-2">
-              <img
-                src="https://via.placeholder.com/350"
-                alt="bar"
-                class="portfolio-img"
-              />
+          </div>
+
+          <div class="card col-sm" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title" id="box">NYT Archive Search
+              </h5>
+              <hr class="my-4">
+              <a href="https://github.com/jrtwheeler/NYTSearch" target="_blank" class="btn btn-primary">Repo</a>
+              <a href="https://jrtwheeler.github.io/NYTSearch/" target="_blank" class="btn btn-primary">Site</a>
             </div>
-          </article>
-          <article class="row">
-            <!-- Column is 12 column wide for mall screens, 6 columns wide for md+, image is centered, 2 margin on y axis -->
-            <div class="col-sm-12 col-md-6 text-center my-2">
-              <img
-                src="https://via.placeholder.com/350"
-                alt="bar"
-                class="portfolio-img"
-              />
+          </div>
+
+          <div class="card col-sm" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title" id="box">Work Day Scheduler
+              </h5>
+              <hr class="my-4">
+              <a href="https://github.com/jrtwheeler/Work-Day-Scheduler" target="_blank"
+                class="btn btn-primary">Repo</a>
+              <a href="https://jrtwheeler.github.io/Work-Day-Scheduler/" target="_blank"
+                class="btn btn-primary">Site</a>
             </div>
-          </article>
-        </article>
-      </section>
-    </main>
-    <!--Footer with centered text, fixed bottom, secondary background, white text-->
-    <footer
-      class="text-center fixed-bottom bg-secondary text-white border-top border-info"
-    >
-      <!--& copy gives the footer copy the copyright symbol-->
-      <p>&copy; 2020</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <div class="card-footer text-muted text-center">
+    <p>
+      Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Baltimore.
+    </p>
     </footer>
-    <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </div>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
