@@ -1,122 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Index</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
 
-  <body>
-    <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a
-        class="navbar-brand ml-3 bg-info text-white font-weight-bold"
-        href="./index.html"
-        >Jim Wheeler</a
-      ><button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <nav
-        class="collapse navbar-collapse w-100 order-3 dual-collapse2"
-        id="navbarSupportedContent"
-      >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Index</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" type="image/png" href="assets/images/title-icon.png">
+</head>
+
+<body>
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand ml-3 bg-info text-white font-weight-bold" href="./index.html">Jim Wheeler</a><button
+      class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <nav class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
       <!--The navbar links are an unordered list, right justified-ml-auto-->
-        <ul class="navbar-nav ml-auto">
-          <!--The first list item is 'active' so it is darker than the other list items becaue it is the active page.-->
-          <li class="nav-item active bg-gradient-primary">
-            <a class="nav-link" href="./index.html">About |</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html"
-              >Portfolio |<span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html"
-              >Contact<span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
-      </nav>
+      <ul class="navbar-nav ml-auto">
+        <!--The first list item is 'active' so it is darker than the other list items becaue it is the active page.-->
+        <li class="nav-item active bg-gradient-primary">
+          <a class="nav-link" href="./index.html">About |</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio |<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
     </nav>
-    <!--Card-->
-    <!--Card container-->
-    <main class="container">
-      <!--Card row-->
-      <section class="row">
-        <!--Card column content is centerered and margin for y-axis is 5. Column is full 12 rows on small screens and larger-->
-        <article class="card col-sm-12 my-5">
-          <!--Card header has info(teal) colored text and bold font-->
-          <h1 class="card-header text-info font-weight-bold">About Me</h1>
-          <!--Margin for the y axis of the section is 3, 2 for the x axis.-->
-          <section class="my-3 mx-2">
-            <!--The image has css styling in the style.css file-->
-            <img
-              id="portrait"
-              class="float-left mr-2 mb-2"
-              src="./assets/img/mn_portrait.jpg"
-              alt="Card image cap"
-            />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              tincidunt sem quis tortor pharetra, pulvinar tempus diam
-              malesuada. Suspendisse potenti. Sed a mi id turpis rhoncus tempor
-              et ac erat. Aenean non euismod ex.
-            </p>
-            <p>
-              Integer non ultrices ligula. Morbi est nibh, scelerisque et massa
-              a, consequat porttitor magna. Cras sollicitudin, augue quis varius
-              cursus, lacus eros vehicula nulla, at mollis leo ipsum et turpis.
-              In a varius orci, ut hendrerit lorem. Aliquam id vestibulum purus,
-              eu cursus felis. Phasellus in nunc aliquam, faucibus turpis eu,
-              tempor enim. Donec fermentum leo eget gravida ultrices.
-            </p>
-          </section>
-        </article>
-      </section>
-    </main>
-    <!--Footer with centered text, fixed bottom, secondary background, white text-->
-    <div class="card-footer text-muted text-center">
-      <p>
-        Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Baltimore.
-      </p>
-      </footer>
-    </div>
-    <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </nav>
+  <!--Card-->
+  <!--Card container-->
+  <main class="container">
+    <!--Card row-->
+    <section class="row">
+      <!--Card column content is centerered and margin for y-axis is 5. Column is full 12 rows on small screens and larger-->
+      <article class="card col-sm-12 my-5">
+        <!--Card header has info(teal) colored text and bold font-->
+        <h1 class="card-header text-info font-weight-bold">About Me</h1>
+        <!--Margin for the y axis of the section is 3, 2 for the x axis.-->
+        <section class="my-3 mx-2">
+          <!--The image has css styling in the style.css file-->
+          <img id="portrait" class="float-left mr-2 mb-2" src="./assets/img/mn_portrait.jpg" alt="Card image cap" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            tincidunt sem quis tortor pharetra, pulvinar tempus diam
+            malesuada. Suspendisse potenti. Sed a mi id turpis rhoncus tempor
+            et ac erat. Aenean non euismod ex.
+          </p>
+          <p>
+            Integer non ultrices ligula. Morbi est nibh, scelerisque et massa
+            a, consequat porttitor magna. Cras sollicitudin, augue quis varius
+            cursus, lacus eros vehicula nulla, at mollis leo ipsum et turpis.
+            In a varius orci, ut hendrerit lorem. Aliquam id vestibulum purus,
+            eu cursus felis. Phasellus in nunc aliquam, faucibus turpis eu,
+            tempor enim. Donec fermentum leo eget gravida ultrices.
+          </p>
+        </section>
+      </article>
+    </section>
+  </main>
+  <!--Footer with centered text, fixed bottom, secondary background, white text-->
+  <div class="card-footer text-muted text-center">
+    <p>
+      Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Baltimore.
+    </p>
+    </footer>
+  </div>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
