@@ -7,9 +7,9 @@
     border-width: 8px !important;
 }
 /* Style for the body that adds a background image */
-body {
+/* body {
     background: url("https://i.imgur.com/MJAkxbh.png");
-}
+} */
 /* Style for the image in the index.html file */
 #portrait {
     border: 2px solid teal;
