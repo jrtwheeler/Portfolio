@@ -1,7 +1,7 @@
 /*Style that changes all the fonts in the page to seriff. The bootstrap default is sans-serriff */
-* {
+/* * {
     font-family: Georgia, "Times New Roman", Times, serif;
-}
+} */
 /* Style for the footer border width */
 .border-top {
     border-width: 8px !important;
@@ -17,7 +17,7 @@
     height: 200px;
 }
 
- .navbar-brand, .favicon {
+.favicon {
     background-color: #17A2B8;
 }
 /* Changes portrait location when the screen has a max-width of 600px or below */

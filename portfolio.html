@@ -15,9 +15,9 @@
 
 <body>
   <!-- Nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand ml-3 text-white font-weight-bold" href="./index.html">Jim Wheeler</a><button
-      class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand text-white font-weight-bold" href="./index.html">Jim Wheeler</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,10 +35,11 @@
       </ul>
     </nav>
   </nav>
-  <!-- Portfolio container -->
-  <div class="parent-container d-flex mt-3">
-    <div class="container col-9">
-      <div class="container">
+
+
+  <div class="parent-container d-flex header-portfolio">
+    <div class="container col-12">
+      <div class="container mt-3">
 
         <div class="row">
           <p>
@@ -53,111 +54,120 @@
           </ul>
           </p>
         </div>
-        <div class="row">
+      </div>
+    </div>
+  </div>
 
-          <div class="accordion" id="accordionPour">
-            <div class="card">
-              <div class="card-title" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Pour Decision
-                  </button>
-                </h5>
-                <div class="card-body">
-                  <hr class="my-4">
-                  <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
-                    class="btn btn-primary button-github" data-toggle="tooltip" data-placement="top"
-                    title="Open Github Repository"><i class="fab fa-github"></i></a>
-                  <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
-                    class="btn btn-primary button-webpage" data-toggle="tooltip" data-placement="top"
-                    title="Open Webpage"><i class="fas fa-globe"></i></a>
-                </div>
-              </div>
-
-              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionPour">
-                <div class="card-body">
-                  <img src="assets/img/pour-decisions.png" class="card-img-top" alt="..."> </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="accordion" id="accordionWeather">
-            <div class="card">
-              <div class="card-title" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                    data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-                    Weather Dashboard
-                  </button>
-                </h5>
-                <div class="card-body">
-                  <hr class="my-4">
-                  <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank" class="btn btn-primary"
-                    data-toggle="tooltip" data-placement="top" title="Open Github Repository"><i
-                      class="fab fa-github"></i></a>
-                  <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank" class="btn btn-primary"
-                    data-toggle="tooltip" data-placement="top" title="Open Webpage"><i class="fas fa-globe"></i></a>
-                </div>
-              </div>
-
-              <div id="collapseTwo" aria-labelledby="headingOne" data-parent="#accordionWeather">
-                <div class="card-body">
-                  <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="..."> </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="card col-sm" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title" id="box">Password Generator
-              </h5>
-              <hr class="my-4">
-              <a href="https://github.com/jrtwheeler/Password-Generator" target="_blank" class="btn btn-primary"
-                data-toggle="tooltip" data-placement="top" title="Open Github Repository"><i
-                  class="fab fa-github"></i></a>
-              <a href="https://jrtwheeler.github.io/Password-Generator/" target="_blank" class="btn btn-primary"
-                data-toggle="tooltip" data-placement="top" title="Open Webpage"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-
-          <div class="card col-sm" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title" id="box">NYT Archive Search
-              </h5>
-              <hr class="my-4">
-              <a href="https://github.com/jrtwheeler/NYTSearch" target="_blank" class="btn btn-primary"
-                data-toggle="tooltip" data-placement="top" title="Open Github Repository"><i
-                  class="fab fa-github"></i></a>
-              <a href="https://jrtwheeler.github.io/NYTSearch/" target="_blank" class="btn btn-primary"
-                data-toggle="tooltip" data-placement="top" title="Open Webpage"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-
-          <div class="card col-sm" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title" id="box">Work Day Scheduler
-              </h5>
-              <hr class="my-4">
-              <a href="https://github.com/jrtwheeler/Work-Day-Scheduler" target="_blank" class="btn btn-primary"
-                data-toggle="tooltip" data-placement="top" title="Open Github Repository"><i
-                  class="fab fa-github"></i></a>
-              <a href="https://jrtwheeler.github.io/Work-Day-Scheduler/" target="_blank" class="btn btn-primary"
-                data-toggle="tooltip" data-placement="top" title="Open Webpage"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-
+  <!-- This is the pour decision box. Accordian id is specific to this accordian -->
+  <div class="accordion" id="accordionP">
+    <!-- Card starts -->
+    <div class="card">
+      <!-- Card header -->
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <!-- This is the button for the accordian. It triggers the accordian dropdown -->
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+            data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Pour Decision
+          </button>
+        </h2>
+      </div>
+      <!-- This is the collapse  -->
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionP">
+        <div class="card-body">
+          <p>
+            The weather dashboard makes three API calls to open weather to return the daily and five day
+            forecast for a city the user inputs..
+          </p>
+          <!-- These are the buttons with data-toggle tooltip added to add the tooltips to each -->
+          <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
+            class="btn btn-primary button-github mb-2" data-toggle="tooltip" data-placement="top"
+            title="Open Github Repository"><i class="fab fa-github"></i></a>
+          <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
+            class="btn btn-primary button-webpage mb-2" data-toggle="tooltip" data-placement="top"
+            title="Open Webpage"><i class="fas fa-globe"></i></a>
+          <br>
+          <img id="portrait" class="float-left mr-2 mb-2" src="assets/img/pour-decisions.png" class="card-img-top"
+            alt="...">
+          <!-- This is a bootstrap list group -->
+          <ul class="list-group">
+            <li class="list-group-item"><i class="fas fa-code"></i></li>
+            <li class="list-group-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-group-item"><i class="fab fa-html5"></i></li>
+            <li class="list-group-item"><i class="fab fa-css3-alt"></i></li>
+          </ul>
         </div>
       </div>
     </div>
-
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Weather Dashboard
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionP">
+        <div class="card-body">
+          <p>
+            The food app lets the user choose a random meal and a random drink from
+            https://www.themealdb.com/api and https://www.thecocktaildb.com/api.
+          </p>
+          <!-- These are the buttons with data-toggle tooltip added to add the tooltips to each -->
+          <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
+            class="btn btn-primary button-github mb-2" data-toggle="tooltip" data-placement="top"
+            title="Open Github Repository"><i class="fab fa-github"></i></a>
+          <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
+            class="btn btn-primary button-webpage mb-2" data-toggle="tooltip" data-placement="top"
+            title="Open Webpage"><i class="fas fa-globe"></i></a>
+          <br>
+          <img id="portrait" class="float-left mr-2 mb-2" src="assets/img/weather-dashboard.png" class="card-img-top"
+            alt="...">
+          <!-- This is a bootstrap list group -->
+          <ul class="list-group">
+            <li class="list-group-item"><i class="fas fa-code"></i></li>
+            <li class="list-group-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-group-item"><i class="fab fa-html5"></i></li>
+            <li class="list-group-item"><i class="fab fa-css3-alt"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+          data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          NYT Archive Search
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionP">
+      <div class="card-body">
+        <p>
+          The New York Times Search uses a third party API call to search the NYT archives.
+        </p>
+        <!-- These are the buttons with data-toggle tooltip added to add the tooltips to each -->
+        <a href="https://github.com/jrtwheeler/NYTSearch" target="_blank" class="btn btn-primary button-github mb-2"
+          data-toggle="tooltip" data-placement="top" title="Open Github Repository"><i class="fab fa-github"></i></a>
+        <a href="https://jrtwheeler.github.io/NYTSearch/" target="_blank" class="btn btn-primary button-webpage mb-2"
+          data-toggle="tooltip" data-placement="top" title="Open Webpage"><i class="fas fa-globe"></i></a>
+        <br>
+        <img id="portrait" class="float-left mr-2 mb-2" src="assets/img/nyt-archive.png" class="card-img-top" alt="...">
+        <!-- This is a bootstrap list group -->
+        <ul class="list-group">
+          <li class="list-group-item"><i class="fas fa-code"></i></li>
+          <li class="list-group-item"><i class="fab fa-js-square"></i></li>
+          <li class="list-group-item"><i class="fab fa-html5"></i></li>
+          <li class="list-group-item"><i class="fab fa-css3-alt"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
   <!--Footer with centered text, fixed bottom, secondary background, white text-->
   <div class="card-footer text-muted text-center">
     <p>
