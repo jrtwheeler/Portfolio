@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link class="favicon" rel="icon" type="image/png" href="assets/img/favicon.png">
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand ml-3 text-white font-weight-bold" href="./index.html">Jim Wheeler</a><button
+            class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About |</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./portfolio.html">Portfolio |<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+
+    <div class="parent-container d-flex header-portfolio">
+        <div class="container col-12">
+            <div class="container mt-3">
+
+                <div class="row">
+                    <p>
+                    <h2>Portfolio</h2>
+                    </p>
+                    <p>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/james-w-54270740/"><i class="fab fa-linkedin"></i>
+                                Linked In</a></li>
+                        <li><a href="https://github.com/jrtwheeler"><i class="fab fa-github"></i>
+                                Github</a></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is the pour decision box. Accordian id is specific to this accordian -->
+    <div class="accordion" id="accordionP">
+        <!-- Card starts -->
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <!-- This is the button for the accordian. It triggers the accordian dropdown -->
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Pour Decision
+                    </button>
+                </h2>
+            </div>
+            <!-- This is the collapse  -->
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionP">
+                <div class="card-body">
+                    <p>
+                        The weather dashboard makes three API calls to open weather to return the daily and five day
+                        forecast for a city the user inputs..
+                    </p>
+                    <!-- These are the buttons with data-toggle tooltip added to add the tooltips to each -->
+                    <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
+                        class="btn btn-primary button-github mb-2" data-toggle="tooltip" data-placement="top"
+                        title="Open Github Repository"><i class="fab fa-github"></i></a>
+                    <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
+                        class="btn btn-primary button-webpage mb-2" data-toggle="tooltip" data-placement="top"
+                        title="Open Webpage"><i class="fas fa-globe"></i></a>
+                    <br>
+                    <img id="portrait" class="float-left mr-2 mb-2" src="assets/img/pour-decisions.png"
+                        class="card-img-top" alt="...">
+                    <!-- This is a bootstrap list group -->
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="fas fa-code"></i></li>
+                        <li class="list-group-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-group-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-group-item"><i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Weather Dashboard
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionP">
+                <div class="card-body">
+                    <p>
+                        The food app lets the user choose a random meal and a random drink from
+                        https://www.themealdb.com/api and https://www.thecocktaildb.com/api.
+                    </p>
+                    <!-- These are the buttons with data-toggle tooltip added to add the tooltips to each -->
+                    <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
+                        class="btn btn-primary button-github mb-2" data-toggle="tooltip" data-placement="top"
+                        title="Open Github Repository"><i class="fab fa-github"></i></a>
+                    <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
+                        class="btn btn-primary button-webpage mb-2" data-toggle="tooltip" data-placement="top"
+                        title="Open Webpage"><i class="fas fa-globe"></i></a>
+                    <br>
+                    <img id="portrait" class="float-left mr-2 mb-2" src="assets/img/weather-dashboard.png"
+                        class="card-img-top" alt="...">
+                    <!-- This is a bootstrap list group -->
+                    <ul class="list-group">
+                        <li class="list-group-item"><i class="fas fa-code"></i></li>
+                        <li class="list-group-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-group-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-group-item"><i class="fab fa-css3-alt"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    NYT Archive Search
+                </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionP">
+            <div class="card-body">
+                <p>
+                    The New York Times Search uses a third party API call to search the NYT archives. 
+                </p>
+                <!-- These are the buttons with data-toggle tooltip added to add the tooltips to each -->
+                <a href="https://github.com/jrtwheeler/NYTSearch" target="_blank"
+                    class="btn btn-primary button-github mb-2" data-toggle="tooltip" data-placement="top"
+                    title="Open Github Repository"><i class="fab fa-github"></i></a>
+                <a href="https://jrtwheeler.github.io/NYTSearch/" target="_blank"
+                    class="btn btn-primary button-webpage mb-2" data-toggle="tooltip" data-placement="top"
+                    title="Open Webpage"><i class="fas fa-globe"></i></a>
+                <br>
+                <img id="portrait" class="float-left mr-2 mb-2" src="assets/img/weather-dashboard.png"
+                    class="card-img-top" alt="...">
+                <!-- This is a bootstrap list group -->
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-code"></i></li>
+                    <li class="list-group-item"><i class="fab fa-js-square"></i></li>
+                    <li class="list-group-item"><i class="fab fa-html5"></i></li>
+                    <li class="list-group-item"><i class="fab fa-css3-alt"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Footer with centered text, fixed bottom, secondary background, white text-->
+    <div class="card-footer text-muted text-center">
+        <p>
+            Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Baltimore.
+        </p>
+        </footer>
+    </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>
