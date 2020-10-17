@@ -37,72 +37,67 @@
     </nav>
   </nav>
   <!--Card-->
-  <div class="jumbotron">
+  <div class="jumbotron my-0">
     <h1 class="display-4">PORTFOLIO</h1>
     <p class="lead">This is my portfolio page. All of the front-end and back-end coding in projects on this page was
       written by me.</p>
     <hr class="my-4">
     <p>I built these projects with a mixture of coffee, grit, HTML, CSS, Javascript, Bulma, Bootstrap, JSON, and JQUERY.
     </p>
-    <a class="btn btn-primary btn-lg" href="contact.html" role="button">Contact Me</a>
-  </div>
-  <!--Card container-->
-  <main class="container">
-    <!--Card row-->
-    <!-- <div class="row"> -->
-      <div class="card-group">
-        <!-- The pour decision card with an accordian dropdown -->
-        <div class="parent-container d-flex">
-          <div class="row">
-            <div class="col m-1">
-              <div class="card" style="width: 18rem;">
+    <a class="btn btn-primary btn-lg contact-me" href="contact.html" role="button">Contact Me</a>
+    <hr class="my-4">
+    <div class="card-group">
+      <!-- The pour decision card with an accordian dropdown -->
+      <div class="parent-container d-flex">
+        <div class="row">
+          <div class="col m-1">
+            <div class="card" style="width: 24rem;">
 
-                <div class="card-body">
-                  <h4 class="card-title">POUR DECISIONS</h4>
-                  <hr>
-                  <h6 class="subhead">Pick a meal and a drink</h6>
-                  <hr>
-                  <div class="accordion" id="accordionP">
-                    <!-- This is the button for the accordian. It triggers the accordian dropdown -->
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                      data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                      See More
-                    </button>
-                    </h2>
-                  </div>
+              <div class="card-body">
+                <h4 class="card-title">POUR DECISIONS</h4>
+                <hr>
+                <h6 class="subhead">Pick a meal and a drink</h6>
+                <hr>
+                <div class="accordion" id="accordionP">
+                  <!-- This is the button for the accordian. It triggers the accordian dropdown -->
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    See More
+                  </button>
+                  </h2>
+                </div>
 
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionP">
-                    <div class="card-body">
-                      <img src="assets/img/pour-decisions.png" class="card-img-top" alt="...">
-                      <hr>
-                      <p class="card-text">Pour Decisions is an app that takes some of the time out of finding a recipe
-                        for
-                        dinner
-                        and drinks and gives it back to you. It lets the user choose a random meal and a random drink
-                        from
-                        https://www.themealdb.com/api and https://www.thecocktaildb.com/api. If the user likes the food
-                        or
-                        drink,
-                        they can store the search. The food and drink divs have dropdowns to show the ingrediants and
-                        recipe.
-                      </p>
-                      <div class="row">
-                        <!-- This is a bootstrap list group -->
-                        <ul class="list-group list-group-sm m-2">
-                          <li class="list-group-item"><i class="fas fa-code"></i> Coding Language</li>
-                          <li class="list-group-item"><i class="fab fa-js-square"> Javascript</i></li>
-                          <li class="list-group-item"><i class="fab fa-html5"></i> HTML5</li>
-                          <li class="list-group-item"><i class="fab fa-css3-alt"></i> CSS</li>
-                        </ul>
-                      </div>
-                      <div class="row">
-                        <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
-                          class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
-                          title="View Github Repository"><i class="fab fa-github"></i></a>
-                        <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
-                          class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
-                          title="View Webpage"><i class="fas fa-globe"></i></a>
-                      </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionP">
+                  <div class="card-body">
+                    <img src="assets/img/pour-decisions.png" class="card-img-top" alt="...">
+                    <hr>
+                    <p class="card-text">Pour Decisions is an app that takes some of the time out of finding a recipe
+                      for
+                      dinner
+                      and drinks and gives it back to you. It lets the user choose a random meal and a random drink
+                      from
+                      https://www.themealdb.com/api and https://www.thecocktaildb.com/api. If the user likes the food
+                      or
+                      drink,
+                      they can store the search. The food and drink divs have dropdowns to show the ingrediants and
+                      recipe.
+                    </p>
+                    <div class="row">
+                      <!-- This is a bootstrap list group -->
+                      <ul class="list-group list-group-sm m-2">
+                        <li class="list-group-item"><i class="fas fa-code"></i> Coding Language</li>
+                        <li class="list-group-item"><i class="fab fa-js-square"> Javascript</i></li>
+                        <li class="list-group-item"><i class="fab fa-html5"></i> HTML5</li>
+                        <li class="list-group-item"><i class="fab fa-css3-alt"></i> CSS</li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
+                        class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
+                        title="View Github Repository"><i class="fab fa-github"></i></a>
+                      <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
+                        class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
+                        title="View Webpage"><i class="fas fa-globe"></i></a>
                     </div>
                   </div>
                 </div>
@@ -110,120 +105,121 @@
             </div>
           </div>
         </div>
-        <!-- The weather dashboard card with an accordian dropdown -->
-        <div class="parent-container d-flex">
-          <div class="row">
-            <div class="col m-1">
-              <div class="card" style="width: 18rem;">
-
-                <div class="card-body">
-                  <h4 class="card-title">WEATHER DASHBOARD</h4>
-                  <hr>
-                  <h6 class="subhead">Find the day's forecast</h6>
-                  <hr>
-                  <div class="accordion" id="accordionW">
-                    <!-- This is the button for the accordian. It triggers the accordian dropdown -->
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      See More
-                    </button>
-                    </h2>
-                  </div>
-
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionW">
-                    <div class="card-body">
-                      <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="...">
-                      <hr>
-                      <p class="card-text">The weather dashboard makes three API calls to open weather to return the
-                        daily
-                        and five day
-                        forecast for a city the user inputs. The user inputs are saved to local storage as user history.
-                        The user
-                        history becomes buttons that can activate the API call for the weather forecast.
-                      </p>
-                      <div class="row">
-                        <!-- This is a bootstrap list group -->
-                        <ul class="list-group list-group-sm m-2">
-                          <li class="list-group-item"><i class="fas fa-code"></i> Coding Language</li>
-                          <li class="list-group-item"><i class="fab fa-js-square"> Javascript</i></li>
-                          <li class="list-group-item"><i class="fab fa-html5"></i> HTML5</li>
-                          <li class="list-group-item"><i class="fab fa-css3-alt"></i> CSS</li>
-                        </ul>
-                      </div>
-                      <div class="row">
-                        <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
-                          class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
-                          title="Open Github Repository"><i class="fab fa-github"></i></a>
-                        <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
-                          class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
-                          title="Open Webpage"><i class="fas fa-globe"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- The NYT Search Engine Archive card with an accordian dropdown -->
-        <div class="parent-container d-flex">
-          <div class="row">
-            <div class="col m-1">
-              <div class="card" style="width: 18rem;">
-
-                <div class="card-body">
-                  <h4 class="card-title">NYT SEARCH</h4>
-                  <hr>
-                  <h6 class="subhead">Search the NYT archives</h6>
-                  <hr>
-                  <div class="accordion" id="accordionN">
-                    <!-- This is the button for the accordian. It triggers the accordian dropdown -->
-                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      See More
-                    </button>
-                    </h2>
-                  </div>
-
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionN">
-                    <div class="card-body">
-                      <img src="assets/img/nyt-archive.png" class="card-img-top" alt="...">
-                      <hr>
-                      <p class="card-text">The weather dashboard makes three API calls to open weather to return the
-                        daily
-                        and five day
-                        forecast for a city the user inputs. The user inputs are saved to local storage as user history.
-                        The user
-                        history becomes buttons that can activate the API call for the weather forecast.
-                      </p>
-                      <div class="row">
-                        <!-- This is a bootstrap list group -->
-                        <ul class="list-group list-group-sm m-2">
-                          <li class="list-group-item"><i class="fas fa-code"></i> Coding Language</li>
-                          <li class="list-group-item"><i class="fab fa-js-square"> Javascript</i></li>
-                          <li class="list-group-item"><i class="fab fa-html5"></i> HTML5</li>
-                          <li class="list-group-item"><i class="fab fa-css3-alt"></i> CSS</li>
-                        </ul>
-                      </div>
-                      <div class="row">
-                        <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
-                          class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
-                          title="Open Github Repository"><i class="fab fa-github"></i></a>
-                        <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
-                          class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
-                          title="Open Webpage"><i class="fas fa-globe"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- The closing div for the row that holds the cards -->
       </div>
-    <!-- </div> -->
-  </main>
+      <!-- The weather dashboard card with an accordian dropdown -->
+      <div class="parent-container d-flex">
+        <div class="row">
+          <div class="col m-1">
+            <div class="card" style="width: 24rem;">
+
+              <div class="card-body">
+                <h4 class="card-title">WEATHER DASHBOARD</h4>
+                <hr>
+                <h6 class="subhead">Find the day's forecast</h6>
+                <hr>
+                <div class="accordion" id="accordionW">
+                  <!-- This is the button for the accordian. It triggers the accordian dropdown -->
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    See More
+                  </button>
+                  </h2>
+                </div>
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionW">
+                  <div class="card-body">
+                    <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="...">
+                    <hr>
+                    <p class="card-text">The weather dashboard makes three API calls to open weather to return the
+                      daily
+                      and five day
+                      forecast for a city the user inputs. The user inputs are saved to local storage as user history.
+                      The user
+                      history becomes buttons that can activate the API call for the weather forecast.
+                    </p>
+                    <div class="row">
+                      <!-- This is a bootstrap list group -->
+                      <ul class="list-group list-group-sm m-2">
+                        <li class="list-group-item"><i class="fas fa-code"></i> Coding Language</li>
+                        <li class="list-group-item"><i class="fab fa-js-square"> Javascript</i></li>
+                        <li class="list-group-item"><i class="fab fa-html5"></i> HTML5</li>
+                        <li class="list-group-item"><i class="fab fa-css3-alt"></i> CSS</li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
+                        class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
+                        title="Open Github Repository"><i class="fab fa-github"></i></a>
+                      <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
+                        class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
+                        title="Open Webpage"><i class="fas fa-globe"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- The NYT Search Engine Archive card with an accordian dropdown -->
+      <div class="parent-container d-flex">
+        <div class="row">
+          <div class="col m-1">
+            <div class="card" style="width: 24rem;">
+
+              <div class="card-body">
+                <h4 class="card-title">NYT SEARCH</h4>
+                <hr>
+                <h6 class="subhead">Search the NYT archives</h6>
+                <hr>
+                <div class="accordion" id="accordionN">
+                  <!-- This is the button for the accordian. It triggers the accordian dropdown -->
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    See More
+                  </button>
+                  </h2>
+                </div>
+
+                <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionN">
+                  <div class="card-body">
+                    <img src="assets/img/nyt-archive.png" class="card-img-top" alt="...">
+                    <hr>
+                    <p class="card-text">The weather dashboard makes three API calls to open weather to return the
+                      daily
+                      and five day
+                      forecast for a city the user inputs. The user inputs are saved to local storage as user history.
+                      The user
+                      history becomes buttons that can activate the API call for the weather forecast.
+                    </p>
+                    <div class="row">
+                      <!-- This is a bootstrap list group -->
+                      <ul class="list-group list-group-sm m-2">
+                        <li class="list-group-item"><i class="fas fa-code"></i> Coding Language</li>
+                        <li class="list-group-item"><i class="fab fa-js-square"> Javascript</i></li>
+                        <li class="list-group-item"><i class="fab fa-html5"></i> HTML5</li>
+                        <li class="list-group-item"><i class="fab fa-css3-alt"></i> CSS</li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
+                        class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
+                        title="Open Github Repository"><i class="fab fa-github"></i></a>
+                      <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
+                        class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
+                        title="Open Webpage"><i class="fas fa-globe"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- The closing div for the row that holds the cards -->
+    </div>
+  </div>
+
   <!--Footer with centered text, fixed bottom, secondary background, white text-->
   <div class="card-footer text-muted text-center">
     <p>

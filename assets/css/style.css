@@ -33,11 +33,11 @@
     margin: 3px;
 }
 
-.header-portfolio {
+.header-portfolio, .jumbotron {
     background-color: #92c2d7;
 }
 
-.card-footer, .list-group-item {
+.card-footer, .list-group-item, .contact-me {
     background-color: #3f4b47;
     color: whitesmoke;
 }
