@@ -1,16 +1,12 @@
 /*Style that changes all the fonts in the page to seriff. The bootstrap default is sans-serriff */
-/* * {
-    font-family: Georgia, "Times New Roman", Times, serif;
-} */
+ * {
+    font-family: Helvetica, sans-serif;
+} 
 /* Style for the footer border width */
 .border-top {
     border-width: 8px !important;
 }
-/* Style for the body that adds a background image */
-/* body {
-    background: url("https://i.imgur.com/MJAkxbh.png");
-} */
-/* Style for the image in the index.html file */
+
 #portrait {
     border: 2px solid #17A2B8;
     width: auto;
@@ -38,5 +34,19 @@
 }
 
 .header-portfolio {
-    background-color: lightblue;
+    background-color: #92c2d7;
+}
+
+.card-footer, .list-group-item {
+    background-color: #3f4b47;
+    color: whitesmoke;
+}
+
+.portrait-info {
+    background-color: #92c2d7;
+    color: white;
+}
+
+a {
+    color: white;
 }
