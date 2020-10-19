@@ -128,7 +128,34 @@
 
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionW">
                   <div class="card-body">
-                    <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="...">
+                    <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="Weather-Dashboard">
+                    <hr>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#weatherBackdrop">
+                      Enlarge
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="weatherBackdrop" data-backdrop="static" data-keyboard="false"
+                      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">WEATHER DASHBOARD</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="...">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of modal -->
                     <hr>
                     <p class="card-text">The weather dashboard makes three API calls to open weather to return the
                       daily
@@ -183,7 +210,34 @@
 
                 <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionN">
                   <div class="card-body">
-                    <img src="assets/img/nyt-archive.png" class="card-img-top" alt="...">
+                    <img src="assets/img/nyt-archive.png" class="card-img-top" alt="NYTSearch">
+                    <hr>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                      Enlarge
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
+                      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">NYT SEARCH</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="assets/img/nyt-archive.png" class="card-img-top" alt="...">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of modal -->
                     <hr>
                     <p class="card-text">The weather dashboard makes three API calls to open weather to return the
                       daily
