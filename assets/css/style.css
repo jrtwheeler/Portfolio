@@ -7,10 +7,20 @@
     border-width: 8px !important;
 }
 
+.image-cropper {
+    width: 300px;
+    height: 300px;
+    position: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 #portrait {
-    border: 2px solid #17A2B8;
-    width: auto;
-    height: 200px;
+    display: inline;
+  margin: 0 auto;
+  /* margin-left: -25%; //centers the image */
+  height: 100%;
+  width: auto;
 }
 
 .favicon {
