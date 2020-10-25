@@ -25,7 +25,7 @@
 }
 /* Sets the height and max width for the portfolio.html placeholder images */
 .portfolio-img {
-    height: 350px;
+    height: 400px;
     max-width: 100%;
 }
 
@@ -33,11 +33,15 @@
     margin: 3px;
 }
 
+.contact-about {
+    font-weight: 300;
+}
+
 .header-portfolio, .jumbotron {
     background-color: #92c2d7;
 }
 
-.card-footer, .list-group-item, .contact-me {
+.card-footer, .list-group-item, .contact-me, .badge {
     background-color: #3f4b47;
     color: whitesmoke;
 }
