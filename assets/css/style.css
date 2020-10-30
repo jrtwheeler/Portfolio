@@ -15,7 +15,17 @@
 
 #pour-decisions {
     width: auto;
-    height: 200px;
+    height: 250px;
+}
+
+#weather-dashboard {
+    width: auto;
+    height: 275px;
+}
+
+#nyt-image {
+    width: auto;
+    height: 135px;
 }
 
 .favicon {
@@ -23,7 +33,7 @@
 }
 /* Changes portrait location when the screen has a max-width of 600px or below */
 @media screen and (max-width: 600px){
-    #portrait, #pour-decisions {
+    #portrait, #pour-decisions, #weather-dashboard, #nyt-image {
         width: 100%;
         height: auto;
     }
