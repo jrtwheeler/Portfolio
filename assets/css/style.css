@@ -13,12 +13,17 @@
     height: 200px;
 }
 
+#pour-decisions {
+    width: auto;
+    height: 200px;
+}
+
 .favicon {
     background-color: #17A2B8;
 }
 /* Changes portrait location when the screen has a max-width of 600px or below */
 @media screen and (max-width: 600px){
-    #portrait {
+    #portrait, #pour-decisions {
         width: 100%;
         height: auto;
     }

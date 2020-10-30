@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/style_index.css" /> -->
+    <link class="favicon" rel="icon" type="image/png" href="assets/img/favicon.png">
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <!-- Nav bar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-white font-weight-bold" href="./index.html">James Wheeler</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About |</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./portfolio.html">Portfolio |<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+
+    <!--Card-->
+    <div class="jumbotron my-0">
+        <h1 class="display-4">PORTFOLIO</h1>
+        <p class="lead">This is my portfolio page. All of the front-end and back-end coding in projects on this page was
+            written by me.</p>
+        <hr class="my-4">
+        <p>I built these projects with a mixture of coffee, grit, HTML, CSS, Javascript, Bulma, Bootstrap, JSON, and
+            JQUERY.
+        </p>
+        <a class="btn btn-primary btn-lg contact-me" href="contact.html" role="button">Contact Me</a>
+        <hr class="my-4">
+    </div>
+<!-- Accordian header -->
+    <div class="accordion" id="PortfolioAccordian">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        POUR DECISIONS
+                    </button>
+                </h2>
+            </div>
+        </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#PortfolioAccordian">
+                <div class="card-body">
+                    <div class="jumbotron my-0">
+                        <div class="card mb-3">
+                            <div class="row no-gutters">
+                                <div class="col-md-2 m-4">
+                                    <img src="assets/img/pour-decisions-detail.png" class="card-img-top" id="pour-decisions"
+                                        alt="...">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <h5 class="card-title">POUR DECISIONS</h5>
+                                        <hr>
+                                        <p class="lead">Pick a meal and a drink</p>
+                                        <hr>
+                                        <p class="card-text">Pour Decisions is an app that takes some of the time out of
+                                            finding a recipe
+                                            for dinner and drinks and gives it back to you. It lets the user choose a
+                                            random meal and a
+                                            random drink from
+                                            https://www.themealdb.com/api and https://www.thecocktaildb.com/api. If the
+                                            user likes the
+                                            food or drink, they can store the search. The food and drink divs have
+                                            dropdowns to show the
+                                            ingrediants
+                                            and recipe.
+                                            <span class="badge badge-light">Javascript</span>
+                                            <span class="badge badge-light">JQUERY</span>
+                                            <span class="badge badge-light">Bulma</span>
+                                            <span class="badge badge-light">HTML</span>
+                                            <span class="badge badge-light">CSS</span></p>
+                                        <hr>
+                                        <p class="card-text"><small class="text-muted"><button type="button"
+                                                    class="btn btn-primary btn-md contact-me" data-toggle="modal"
+                                                    data-target="#pourBackdrop" data-toggle="tooltip"
+                                                    data-placement="top" title="View a thumbnail of the page">
+                                                    <i class="fas fa-search-location"></i> Thumbnail
+                                                </button>
+                                                <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
+                                                    class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                    data-placement="top" title="View Github Repository"><i
+                                                        class="fab fa-github"></i> See More</a>
+                                                <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
+                                                    class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                    data-placement="top" title="View Webpage"><i
+                                                        class="fas fa-globe"></i> Open</a></small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="pourBackdrop" data-backdrop="static" data-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">POUR DECISIONS</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/pour-decisions.png" class="card-img-top" id="pour-decisions"
+                                        alt="...">
+                                        <hr>
+                                        <img src="assets/img/pour-decisions-phone.png" class="card-img-top" id="pour-decisions"
+                                        alt="...">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of modal -->
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#PortfolioAccordian">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3
+                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                    nesciunt laborum
+                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                    coffee nulla
+                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                    anderson cred nesciunt
+                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                    beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus
+                                    labore sustainable VHS.
+                                    <span class="badge badge-light">Javascript</span>
+                                    <span class="badge badge-light">JQUERY</span>
+                                    <span class="badge badge-light">Bulma</span>
+                                    <span class="badge badge-light">HTML</span>
+                                    <span class="badge badge-light">CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#PortfolioAccordian">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3
+                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                    nesciunt laborum
+                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                    coffee nulla
+                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                    anderson cred nesciunt
+                                    sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                    beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus
+                                    labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Footer with centered text, fixed bottom, secondary background, white text-->
+                    <div class="card-footer text-muted text-center">
+                        <p>
+                            Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Baltimore.
+                        </p>
+                        </footer>
+                    </div>
+                    <!-- JS, Popper.js, and jQuery -->
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                        crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                        crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>
