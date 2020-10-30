@@ -2,325 +2,339 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link class="favicon" rel="icon" type="image/png" href="assets/img/favicon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/style_index.css" /> -->
+    <link class="favicon" rel="icon" type="image/png" href="assets/img/favicon.png">
 </head>
 
 <body>
-  <!-- Nav bar -->
-  <!-- Nav bar -->
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand text-white font-weight-bold" href="./index.html">James Wheeler</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <nav class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home |</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About |</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./portfolio.html">Portfolio |<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
+    <!-- Nav bar -->
+    <!-- Nav bar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand text-white font-weight-bold" href="./index.html">James Wheeler</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home |</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About |</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./portfolio.html">Portfolio |<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </nav>
     </nav>
-  </nav>
-  <!--Card-->
-  <div class="jumbotron my-0">
-    <h1 class="display-4">PORTFOLIO</h1>
-    <p class="lead">This is my portfolio page. All of the front-end and back-end coding in projects on this page was
-      written by me.</p>
-    <hr class="my-4">
-    <p>I built these projects with a mixture of coffee, grit, HTML, CSS, Javascript, Bulma, Bootstrap, JSON, and JQUERY.
-    </p>
-    <a class="btn btn-primary btn-lg contact-me" href="contact.html" role="button">Contact Me</a>
-    <hr class="my-4">
-    <div class="card-group">
-      <!-- The pour decision card with an accordian dropdown -->
-      <div class="parent-container d-flex">
-        <div class="row">
-          <div class="col m-1">
-            <div class="card" style="width: 24rem;">
 
-              <div class="card-body">
-                <h4 class="card-title">POUR DECISIONS</h4>
-                <hr>
-                <h6 class="subhead">Pick a meal and a drink</h6>
-                <hr>
-                <div class="accordion" id="accordionP">
-                  <!-- This is the button for the accordian. It triggers the accordian dropdown -->
-                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                    data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    See More
-                  </button>
-                  </h2>
-                </div>
-
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionP">
-                  <div class="card-body border-left">
-                    <div class="container">
-                      <img src="assets/img/pour-decisions.png" alt="Snow" style="width:100%;">
-                      <!-- Button trigger modal -->
-                      <div class="centered"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pourBackdrop">
-                        <i class="fas fa-search-location"></i> Enlarge
-                      </button></div>
-                    </div>
-                    <hr>
-                    <!-- Modal -->
-                    <div class="modal fade" id="pourBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
-                      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">POUR DECISIONS</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <img src="assets/img/pour-decisions.png" class="card-img-top" alt="...">
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End of modal -->
-                    <p class="card-text">Pour Decisions is an app that takes some of the time out of finding a recipe
-                      for
-                      dinner
-                      and drinks and gives it back to you. It lets the user choose a random meal and a random drink
-                      from
-                      https://www.themealdb.com/api and https://www.thecocktaildb.com/api. If the user likes the food
-                      or
-                      drink,
-                      they can store the search. The food and drink divs have dropdowns to show the ingrediants and
-                      recipe.
-                    </p>
-                    <div class="row">
-                      <ul>
-                        <li><span class="badge badge-light">Javascript</span></li>
-                        <li><span class="badge badge-light">JQUERY</span></li>
-                        <li><span class="badge badge-light">Bulma</span></li>
-                        <li><span class="badge badge-light">HTML</span></li>
-                        <li><span class="badge badge-light">CSS</span></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
-                        class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
-                        title="View Github Repository"><i class="fab fa-github"></i> See More</a>
-                      <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
-                        class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
-                        title="View Webpage"><i class="fas fa-globe"></i> Open</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- The weather dashboard card with an accordian dropdown -->
-      <div class="parent-container d-flex">
-        <div class="row">
-          <div class="col m-1">
-            <div class="card" style="width: 24rem;">
-
-              <div class="card-body">
-                <h4 class="card-title">WEATHER DASHBOARD</h4>
-                <hr>
-                <h6 class="subhead">Find the day's forecast</h6>
-                <hr>
-                <div class="accordion" id="accordionW">
-                  <!-- This is the button for the accordian. It triggers the accordian dropdown -->
-                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    See More
-                  </button>
-                  </h2>
-                </div>
-
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionW">
-                  <div class="card-body border-left">
-                    <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="Weather-Dashboard">
-                    <hr>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#weatherBackdrop">
-                      <i class="fas fa-search-location"></i> Enlarge
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="weatherBackdrop" data-backdrop="static" data-keyboard="false"
-                      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">WEATHER DASHBOARD</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <img src="assets/img/weather-dashboard.png" class="card-img-top" alt="...">
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End of modal -->
-                    <hr>
-                    <p class="card-text">The weather dashboard makes three API calls to open weather to return the
-                      daily
-                      and five day
-                      forecast for a city the user inputs. The user inputs are saved to local storage as user history.
-                      The user
-                      history becomes buttons that can activate the API call for the weather forecast.
-                    </p>
-                    <div class="row">
-                      <ul>
-                        <li><span class="badge badge-light">Javascript</span></li>
-                        <li><span class="badge badge-light">JQUERY</span></li>
-                        <li><span class="badge badge-light">Boostrap</span></li>
-                        <li><span class="badge badge-light">HTML</span></li>
-                        <li><span class="badge badge-light">CSS</span></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
-                        class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
-                        title="Open Github Repository"><i class="fab fa-github"></i> See More</a>
-                      <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
-                        class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
-                        title="Open Webpage"><i class="fas fa-globe"></i> Open</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- The NYT Search Engine Archive card with an accordian dropdown -->
-      <div class="parent-container d-flex">
-        <div class="row">
-          <div class="col m-1">
-            <div class="card" style="width: 24rem;">
-
-              <div class="card-body">
-                <h4 class="card-title">NYT SEARCH</h4>
-                <hr>
-                <h6 class="subhead">Search the NYT archives</h6>
-                <hr>
-                <div class="accordion" id="accordionN">
-                  <!-- This is the button for the accordian. It triggers the accordian dropdown -->
-                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
-                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    See More
-                  </button>
-                  </h2>
-                </div>
-
-                <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionN">
-                  <div class="card-body border-left">
-                    <img src="assets/img/nyt-archive.png" class="card-img-top" alt="NYTSearch">
-                    <hr>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-                      <i class="fas fa-search-location"></i> Enlarge
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
-                      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">NYT SEARCH</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">
-                            <img src="assets/img/nyt-archive.png" class="card-img-top" alt="...">
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End of modal -->
-                    <hr>
-                    <p class="card-text">The weather dashboard makes three API calls to open weather to return the
-                      daily
-                      and five day
-                      forecast for a city the user inputs. The user inputs are saved to local storage as user history.
-                      The user
-                      history becomes buttons that can activate the API call for the weather forecast.
-                    </p>
-                    <div class="row">
-                      <ul>
-                        <li><span class="badge badge-light">Javascript</span></li>
-                        <li><span class="badge badge-light">JQUERY</span></li>
-                        <li><span class="badge badge-light">Boostrap</span></li>
-                        <li><span class="badge badge-light">HTML</span></li>
-                        <li><span class="badge badge-light">CSS</span></li>
-                      </ul>
-                    </div>
-                    <div class="row">
-                      <a href="https://github.com/jrtwheeler/NYTSearch" target="_blank"
-                        class="btn btn-primary button-github m-1" data-toggle="tooltip" data-placement="top"
-                        title="Open Github Repository"><i class="fab fa-github"></i> See More</a>
-                      <a href="https://jrtwheeler.github.io/NYTSearch//" target="_blank"
-                        class="btn btn-primary button-webpage m-1" data-toggle="tooltip" data-placement="top"
-                        title="Open Webpage"><i class="fas fa-globe"></i> Open</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- The closing div for the row that holds the cards -->
+    <!--Card-->
+    <div class="jumbotron my-0">
+        <h1 class="display-4">PORTFOLIO</h1>
+        <p class="lead">This is my portfolio page. All of the front-end and back-end coding in projects on this page was
+            written by me.</p>
+        <hr class="my-4">
+        <p>I built these projects with a mixture of coffee, grit, HTML, CSS, Javascript, Bulma, Bootstrap, JSON, and
+            JQUERY.
+        </p>
+        <a class="btn btn-primary btn-lg contact-me" href="contact.html" role="button">Contact Me</a>
     </div>
-  </div>
+    <!-- Accordian header -->
+    <div class="accordion" id="PortfolioAccordian">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        POUR DECISIONS
+                    </button>
+                </h2>
+            </div>
+        </div>
 
-  <!--Footer with centered text, fixed bottom, secondary background, white text-->
-  <div class="card-footer text-muted text-center">
-    <p>
-      Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Baltimore.
-    </p>
-    </footer>
-  </div>
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#PortfolioAccordian">
+            <div class="card-body">
+                <div class="jumbotron my-0">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 m-4">
+                                <img src="assets/img/pour-decisions-detail.png" class="card-img-top" id="pour-decisions"
+                                    alt="Pour Decisions">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                    <h5 class="card-title">POUR DECISIONS</h5>
+                                    <hr>
+                                    <p class="lead">Pick a meal and a drink</p>
+                                    <hr>
+                                    <p class="card-text">Pour Decisions is an app that takes some of the time out of
+                                        finding a recipe
+                                        for dinner and drinks and gives it back to you. It lets the user choose a
+                                        random meal and a
+                                        random drink from
+                                        https://www.themealdb.com/api and https://www.thecocktaildb.com/api. If the
+                                        user likes the
+                                        food or drink, they can store the search. The food and drink divs have
+                                        dropdowns to show the
+                                        ingrediants
+                                        and recipe.
+                                        <span class="badge badge-light">Javascript</span>
+                                        <span class="badge badge-light">JQUERY</span>
+                                        <span class="badge badge-light">Bulma</span>
+                                        <span class="badge badge-light">HTML</span>
+                                        <span class="badge badge-light">CSS</span></p>
+                                    <hr>
+                                    <p class="card-text"><small class="text-muted"><button type="button"
+                                                class="btn btn-primary btn-md contact-me" data-toggle="modal"
+                                                data-target="#pourBackdrop" data-toggle="tooltip" data-placement="top"
+                                                title="View a thumbnail of the page">
+                                                <i class="fas fa-search-location"></i> Thumbnail
+                                            </button>
+                                            <a href="https://github.com/jrtwheeler/Pour-Decision" target="_blank"
+                                                class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                data-placement="top" title="View Github Repository"><i
+                                                    class="fab fa-github"></i> See More</a>
+                                            <a href="https://jrtwheeler.github.io/Pour-Decision/" target="_blank"
+                                                class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                data-placement="top" title="View Webpage"><i class="fas fa-globe"></i>
+                                                Open</a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="pourBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">POUR DECISIONS</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/pour-decisions-phone.png" class="card-img-top" id="pour-decisions"
+                            alt="Pour Decisions">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of modal -->
+
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        WEATHER DASHBOARD
+                    </button>
+                </h2>
+            </div>
+        </div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#PortfolioAccordian">
+            <div class="card-body">
+                <div class="jumbotron my-0">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 m-4">
+                                <img src="assets/img/weather-dashboard-detail.png" class="card-img-top"
+                                    id="weather-dashboard" alt="Weather Dashboard">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                    <h5 class="card-title">WEATHER DASHBOARD</h5>
+                                    <hr>
+                                    <p class="lead">Find the day's forecast</p>
+                                    <hr>
+                                    <p class="card-text">The weather dashboard makes three API calls to open
+                                        weather to return the
+                                        daily
+                                        and five day
+                                        forecast for a city the user inputs. The user inputs are saved to local
+                                        storage as user history.
+                                        The user
+                                        history becomes buttons that can activate the API call for the weather
+                                        forecast.
+                                        <span class="badge badge-light">Javascript</span>
+                                        <span class="badge badge-light">JQUERY</span>
+                                        <span class="badge badge-light">Boostrap</span>
+                                        <span class="badge badge-light">HTML</span>
+                                        <span class="badge badge-light">CSS</span></p>
+                                    <hr>
+                                    <p class="card-text"><small class="text-muted"><button type="button"
+                                                class="btn btn-primary btn-md contact-me" data-toggle="modal"
+                                                data-target="#weatherBackdrop" data-toggle="tooltip"
+                                                data-placement="top" title="View a thumbnail of the page">
+                                                <i class="fas fa-search-location"></i> Thumbnail
+                                            </button>
+                                            <a href="https://github.com/jrtwheeler/Weather-Dashboard" target="_blank"
+                                                class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                data-placement="top" title="View Github Repository"><i
+                                                    class="fab fa-github"></i> See
+                                                More</a>
+                                            <a href="https://jrtwheeler.github.io/Weather-Dashboard/" target="_blank"
+                                                class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                data-placement="top" title="View Webpage"><i class="fas fa-globe"></i>
+                                                Open</a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="weatherBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">WEATHER DASHBOARD</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/weather-dashboard-detail.png" class="card-img-top" id="pour-decisions"
+                            alt="Weather Dashboard">
+                        <hr>
+                        <img src="assets/img/weather-dashboard-detail-2.png" class="card-img-top" id="pour-decisions"
+                            alt="Weather Dashboard">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of modal -->
+
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        NYT SEARCH
+                    </button>
+                </h2>
+            </div>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#PortfolioAccordian">
+            <div class="card-body">
+                <div class="jumbotron my-0">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 m-4">
+                                <img src="assets/img/nyt-archive.png" class="card-img-top" id="nyt-image" alt="NYT">
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                    <h5 class="card-title">NYT SEARCH</h5>
+                                    <hr>
+                                    <p class="lead">Search the NYT archives</p>
+                                    <hr>
+                                    <p class="card-text">The weather dashboard makes three API calls to open weather to
+                                        return the
+                                        daily
+                                        and five day
+                                        forecast for a city the user inputs. The user inputs are saved to local storage
+                                        as user history.
+                                        The user
+                                        history becomes buttons that can activate the API call for the weather forecast.
+                                        <span class="badge badge-light">Javascript</span>
+                                        <span class="badge badge-light">JQUERY</span>
+                                        <span class="badge badge-light">Boostrap</span>
+                                        <span class="badge badge-light">HTML</span>
+                                        <span class="badge badge-light">CSS</span></p>
+                                    <hr>
+                                    <p class="card-text"><small class="text-muted"><button type="button"
+                                                class="btn btn-primary btn-md contact-me" data-toggle="modal"
+                                                data-target="#NYTBackdrop" data-toggle="tooltip" data-placement="top"
+                                                title="View a thumbnail of the page">
+                                                <i class="fas fa-search-location"></i> Thumbnail
+                                            </button>
+                                            <a href="https://github.com/jrtwheeler/NYTSearch" target="_blank"
+                                                class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                data-placement="top" title="View Github Repository"><i
+                                                    class="fab fa-github"></i> See
+                                                More</a>
+                                            <a href="https://jrtwheeler.github.io/NYTSearch" target="_blank"
+                                                class="btn btn-primary btn-md contact-me m-1" data-toggle="tooltip"
+                                                data-placement="top" title="View Webpage"><i class="fas fa-globe"></i>
+                                                Open</a></small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="NYTBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">NYT SEARCH</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/nyt-archive.png" class="card-img-top" id="pour-decisions" alt="NYT">
+                        <hr>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of modal -->
+    </div>
+    </div>
+    </div>
+
+    <!--Footer with centered text, fixed bottom, secondary background, white text-->
+    <div class="card-footer text-muted text-center">
+        <p>
+            Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> in Baltimore.
+        </p>
+        </footer>
+    </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
