@@ -3,12 +3,7 @@
     font-family: Helvetica, sans-serif;
 } 
 
-.contact-list {
-    font-family: Helvetica, sans-serif;
-    color: white;
-    font-style: bold;
-}
-
+/* Tag styles */
 body, .card, a, .navbar {
     background-color: black;
     font: gray;
@@ -16,8 +11,42 @@ body, .card, a, .navbar {
     padding: 0;
 }
 
-.subhead {
-    font-style: italic;
+span {
+    color:white;
+
+}
+
+/* ID styles */
+.contact-list {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-style: bold;
+}
+
+.fab, .fas {
+    color:gray;
+}
+
+.hr-contacts {
+    border-style: solid;
+    border-top: 1px;
+    height: 0;
+    width: 232px;
+    border-width: 1px;
+    border-color: white;
+    margin-left:0;
+}
+
+.portfolio-img {
+    height: 350px;
+    max-width: 100%;
+}
+
+.rule-lines-second {
+    border-color: gray;
+    background-color:gray;
+    color:gray;
+    margin-right:100%;
 }
 
 .rule-lines, .rule-lines-second {
@@ -27,21 +56,11 @@ body, .card, a, .navbar {
     justify-self: left;
 }
 
-.fab, .fas {
-    color:gray;
+.subhead {
+    font-style: italic;
 }
 
-span {
-    color:white;
-
-}
-
-.rule-lines-second {
-    border-color: gray;
-    background-color:gray;
-    color:gray;
-    margin-right:100%;
-}
+/* Class style */
 
 #portrait {
     border: 2px solid #17A2B8;
@@ -55,9 +74,4 @@ span {
         width: 100%;
         height: auto;
     }
-}
-/* Sets the height and max width for the portfolio.html placeholder images */
-.portfolio-img {
-    height: 350px;
-    max-width: 100%;
 }
