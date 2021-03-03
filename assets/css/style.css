@@ -78,3 +78,13 @@ a {
     color:  #3f4b47;
     font: italic;
 }
+
+#avatar {
+    display: block;
+    border-radius: 45px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #cfd8dc;
+    height: 45px;
+    width: 45px
+  }

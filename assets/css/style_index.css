@@ -68,6 +68,16 @@ span {
     height: 200px;
 }
 
+#avatar {
+    display: block;
+    border-radius: 45px;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #cfd8dc;
+    height: 45px;
+    width: 45px
+  }
+
 /* Changes portrait location when the screen has a max-width of 600px or below */
 @media screen and (max-width: 600px){
     #portrait {
