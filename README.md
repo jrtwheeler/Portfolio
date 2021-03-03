@@ -13,7 +13,7 @@
 ![Web page](assets/img/portfolio-index.png)
 ![Web page](assets/img/portfolio-portfolio.png)
   ## Credits
-* Javascript
+* JavaScript
 * JQUERY
 * CSS
 * HTML
